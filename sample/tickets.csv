@@ -1,0 +1,16 @@
+text,category
+"Cannot connect to office Wi-Fi",network
+"VPN connection drops every few minutes",network
+"Shared drive is not reachable",network
+"Forgot my password and cannot sign in",identity_access
+"Please unlock my account",identity_access
+"Need access to the finance application",identity_access
+"Outlook will not open",email_collaboration
+"Teams microphone not detected",email_collaboration
+"Mailbox search is very slow",email_collaboration
+"Laptop blue screens after startup",endpoint
+"Printer is offline",endpoint
+"Keyboard is not working",endpoint
+"ERP shows an error when creating order",business_application
+"CRM page is blank",business_application
+"Finance software will not launch",business_application

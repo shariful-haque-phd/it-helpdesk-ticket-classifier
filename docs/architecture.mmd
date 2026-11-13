@@ -1,0 +1,6 @@
+flowchart LR
+    A["tickets.csv"] --> B["Processing modules"]
+    B --> C["Console / application output"]
+    B -.-> M0["predict.py"]
+    B -.-> M1["train.py"]
+

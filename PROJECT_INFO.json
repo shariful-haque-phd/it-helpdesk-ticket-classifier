@@ -1,0 +1,33 @@
+{
+  "project_id": 19,
+  "repo_name": "019-it-helpdesk-ticket-classifier",
+  "title": "IT Helpdesk Ticket Classifier",
+  "theme": "AI Agents & Workflow Automation",
+  "theme_id": "T04",
+  "level": 1,
+  "level_label": "Foundations",
+  "prototype_status": "research prototype",
+  "primary_description": "Support-ticket routing and priority",
+  "research_question_proposed": "Can ticket text support transparent routing and urgency prioritization without over-automation?",
+  "sample_files": [
+    "sample/tickets.csv"
+  ],
+  "source_modules": [
+    "src/predict.py",
+    "src/train.py"
+  ],
+  "commands_from_original_readme": [
+    "python src/train.py sample/tickets.csv --model outputs/ticket_model.joblib",
+    "python src/predict.py outputs/ticket_model.joblib \"VPN unavailable for the entire finance team; month-end work is blocked\""
+  ],
+  "docs": [
+    "README.md",
+    "docs/RESEARCH.md",
+    "docs/ARCHITECTURE.md",
+    "docs/DEMO.md",
+    "docs/RESULTS.md"
+  ],
+  "source_origin": "github-level1-20-projects(1).zip",
+  "execution_status": "verified_local_execution",
+  "evidence": "results/execution.json"
+}

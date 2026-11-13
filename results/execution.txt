@@ -1,0 +1,7 @@
+$ python src/train.py sample/tickets.csv --model outputs/ticket_model.joblib
+saved outputs/ticket_model.joblib
+
+
+$ python src/predict.py outputs/ticket_model.joblib "VPN unavailable for the entire finance team; month-end work is blocked"
+{'category': 'identity_access', 'category_confidence': 0.217, 'priority': 'P2'}
+
